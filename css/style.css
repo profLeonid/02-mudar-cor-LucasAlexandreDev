@@ -1,0 +1,78 @@
+body{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--color-bg);
+    transition: all 3s;
+}
+
+:root{
+    --color-bg: white;
+}
+
+#botao-trocar-cor, #botao-verde, #botao-vermelho, #botao-aleatorio-cor, #botao-restart-cor {
+    width: 150px;
+    height: auto;
+}
+
+#botao-trocar-cor:hover, #botao-verde:hover, #botao-vermelho:hover, #botao-aleatorio-cor:hover, #botao-restart-cor:hover {
+    color: white;
+}
+
+#botao-trocar-cor { 
+    background-color: white;
+}
+
+#botao-trocar-cor:hover { 
+    background-color: rgb(163, 163, 163); 
+}
+
+#botao-verde { 
+    background-color: rgb(30, 248, 30); 
+}
+
+#botao-verde:hover { 
+    background-color: rgb(0, 134, 0); 
+}
+
+#botao-vermelho { 
+    background-color: rgb(255, 19, 19); 
+}
+
+#botao-vermelho:hover { 
+    background-color: rgb(218, 0, 0); 
+}
+
+#botao-aleatorio-cor {
+    background-image: linear-gradient(to right, #Ed103b, #f7ad32, #ffff2f, #5dee27, #85fbff, #733bc2, #cd89e0);
+}
+
+#botao-restart-cor { 
+    background-color: rgb(209, 209, 208); 
+}
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+#cor-usuario {
+    text-align: center;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-style:inherit
+}
